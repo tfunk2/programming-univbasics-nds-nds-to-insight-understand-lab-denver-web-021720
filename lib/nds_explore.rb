@@ -22,8 +22,5 @@ def print_first_directors_movie_titles
   end
   
   
-  p empty_string
-  
-  
   
 end
