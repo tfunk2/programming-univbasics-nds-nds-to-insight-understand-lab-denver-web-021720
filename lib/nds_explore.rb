@@ -12,10 +12,11 @@ end
 
 
 def print_first_directors_movie_titles
-  empty_string = ""
   movie_index = 0
+  
   while movie_index < directors_database[0][:movies].length
-  empty_string << "#{directors_database[0][:movies][movie_index][:title]}\n"
+  p directors_database[0][:movies][movie_index][:title]
+  
   movie_index += 1
   
   end
